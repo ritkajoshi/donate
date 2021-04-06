@@ -18,7 +18,6 @@
     
     background-position-y: 10px;
     background-position: center;
-    filter: invert(100%); 
     height: 90vh;
     font-family: 'Baloo Bhai 2', cursive;
 }
@@ -35,7 +34,6 @@
 
 .left img {
     width: 61px;
-    filter: invert(100%);
 }
 
 .left div {
@@ -70,7 +68,7 @@
 }
 
 .navbar li a {
-    color: white;
+    color: rgb(14, 12, 12);
     text-decoration: none;
     padding: 34px 20px;
 
@@ -79,15 +77,15 @@
 .navbar li a:hover,
 .navbar li a.active {
     text-decoration: underline;
-    color: grey;
+    color:rgb(53, 33, 99);
 }
 
 .btn {
     margin: 3px 0px;
-    background-color: black;
-    color: white;
+    background-color:rgb(252, 246, 246);
+    color: rgb(14,8,8);
     padding: 4px 14px;
-    border: 2px solid grey;
+    border: 2px solid rgb(10, 9, 10);
     border-radius: 10px;
     font-family: 'Baloo Bhai 2', cursive;
     font-size: 16px;
@@ -95,11 +93,11 @@
 }
 
 .btn:hover {
-    background-color: grey;
+    background-color: rgb(138, 138, 138);
 }
 
 .container {
-    border: 2px solid rgba(202, 184, 184, 0.438);
+    border: 2px solid rgba(12, 12, 12, 0.438);
     margin: 44px 140px;
     padding: 70px 61px;
     width: 34%;
@@ -118,7 +116,7 @@
     font-size: 13px;
     border-radius: 20px;
     font-family: 'Baloo Bhai 2', cursive;
-    background-color:rgb(197, 188, 188);
+    background-color:rgb(71, 64, 64);
 }
 .container h1{
   text-align: center;
@@ -159,7 +157,7 @@
     <div class="box">
 
     <div class="container">
-        <h1>Donate now!</h1>
+        <h1 style="color:black">Donate now!</h1>
         <form action="/" method="POST" id="contact">
             <div class="formgrp">
                 <input type="text" name="" placeholder="Enter object">
@@ -183,7 +181,7 @@
     <br>
 
     <div class="container">
-        <h1>FOR NGOs</h1>
+        <h1 style="color:black">FOR NGOs</h1>
         <form action="/" method="POST" id="contact">
             <div class="formgrp">
                 <input type="text" name="" placeholder="Enter object">
@@ -194,13 +192,11 @@
             <div class="formgrp">
                 <input type="text" name="" placeholder="Enter Address">
             </div>
-            <p>Enter date</p>
             <div class="formgrp">
                 <input type="date" name="" placeholder="Enter date">
             </div>
             <div>
             </div>
-            <p>Enter Pick up time</p>
             <div class="formgrp">                
                 <input type="time" name="" placeholder="Enter pick up time">
             </div>
